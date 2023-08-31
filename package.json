@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build && ls -al",
+    "build": "next build && ls -al .vercel/output && ls -al .vercel/output/static && tree .vercel/output/static --dirsfirst -aF && cat .vercel/output/config.json",
     "start": "next start",
     "dev": "next dev"
   },
