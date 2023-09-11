@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build && cat .vercel/project.json && cat vercel.json",
+    "build": "next build",
     "start": "next start",
     "dev": "next dev"
   },
