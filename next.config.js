@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: 'kau',
+  basePath: '/kau',
   reactStrictMode: true,
   swcMinify: true,
   images: {
