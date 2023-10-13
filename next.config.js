@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/kau',
+  assertPrefix: 'https://main.d3co2gtc7jbyrp.amplifyapp.com',
   reactStrictMode: true,
   swcMinify: true,
   images: {
