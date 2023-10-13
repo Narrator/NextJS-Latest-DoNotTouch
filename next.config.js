@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: 'https://main.d3co2gtc7jbyrp.amplifyapp.com',
+  assetPrefix: 'https://amplify-yml-override.d33jl3tp6bvqwn.amplifyapp.com',
   reactStrictMode: true,
   swcMinify: true,
   images: {
