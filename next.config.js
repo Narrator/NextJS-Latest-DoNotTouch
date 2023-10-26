@@ -8,7 +8,8 @@ const nextConfig = {
       {
         hostname: "**.unsplash.com"
       }
-    ]
+    ],
+    formats: ["image/avif"]
   },
   async headers() {
     return [
