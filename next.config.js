@@ -4,6 +4,14 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    "sizes": [
+      100,
+      200,
+      1920
+    ],
+    "formats": ["image/jpeg", "image/png", "image/webp", "image/avif"],
+    "minimumCacheTTL": 60,
+    "dangerouslyAllowSVG": false,
     remotePatterns: [
       {
         hostname: "**.unsplash.com"
