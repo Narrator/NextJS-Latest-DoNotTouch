@@ -20,6 +20,15 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/ssg',
+        headers: [
+          {
+            key: 'x-custom-header',
+            value: 'kaushik',
+          },
+        ],
+      }
     ]
   },
 }
