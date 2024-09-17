@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  assetPrefix: 'https://amplify-yml-override.d33jl3tp6bvqwn.amplifyapp.com',
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -7,7 +8,8 @@ const nextConfig = {
       {
         hostname: "**.unsplash.com"
       }
-    ]
+    ],
+    formats: ["image/avif"]
   },
   async headers() {
     return [
@@ -23,5 +25,6 @@ const nextConfig = {
     ]
   },
 }
+
 
 module.exports = nextConfig
